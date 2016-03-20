@@ -1,0 +1,40 @@
+{
+  "name": "dashboard-clock-digital",
+  "authors": [
+    "Barrett K. Harber <barrett.harber@gmail.com>"
+  ],
+  "description": "A digital clock.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "dashboard",
+    "clock",
+    "digital"
+  ],
+  "main": "dashboard-clock-digital.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/DashboardElements/dashboard-clock-digital",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "dashboard-layout": "dashboard-layout#^0.0.1",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.3.1"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "^4.0.0"
+  },
+  "_release": "044f2b1cc9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "044f2b1cc9504c4102a67223906348cf1e524cb1"
+  },
+  "_source": "git@github.com:DashboardElements/dashboard-clock-digital.git",
+  "_target": "master",
+  "_originalSource": "git@github.com:DashboardElements/dashboard-clock-digital",
+  "_direct": true
+}
