@@ -13,7 +13,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../dashboard-layout/dashboard-layout.html">
 
 <!--
-An element providing a solution to no problem in particular.
+A digital clock.
 
 Example:
 
@@ -67,25 +67,19 @@ Example:
       is: 'dashboard-clock-digital',
 
       properties: {
-        /**
-         * The hour
-         */
+        /** The hour */
         hour: {
           type: Number,
           notify: true
         },
 
-        /**
-         * The minute
-         */
+        /** The minute */
         minute: {
           type: Number,
           notify: true
         },
 
-        /**
-         * The second
-         */
+        /** The second */
         second: {
           type: Number,
           notify: true
@@ -102,6 +96,7 @@ Example:
 
       /**
        * Updates the time
+       *
        * @private
        */
       _updateTime: function() {
@@ -116,7 +111,8 @@ Example:
 
       /**
        * Zero pads a number
-       * @param value {Number}
+       *
+       * @param value {number} The number to zero pad
        * @returns {string}
        * @private
        */

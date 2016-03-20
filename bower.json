@@ -8,7 +8,9 @@
   "keywords": [
     "web-component",
     "polymer",
-    "seed"
+    "dashboard",
+    "clock",
+    "digital"
   ],
   "main": "dashboard-clock-digital.html",
   "license": "http://polymer.github.io/LICENSE.txt",
@@ -19,7 +21,7 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.2.0",
-    "dashboard-layout": "DashboardElements/dashboard-layout",
+    "dashboard-layout": "dashboard-layout#^0.0.1",
     "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.3.1"
   },
   "devDependencies": {
